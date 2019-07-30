@@ -1,5 +1,13 @@
+.page{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
 .head {
     background: #fc0;
+    text-align: center;
     height: 100px;
     position: relative;
     width: 100px;
@@ -8,8 +16,4 @@
     font-family: 'courier new', serif;
     font-size: 2.5em;
     font-weight: bold;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -60%) rotate(90deg);
   }
